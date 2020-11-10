@@ -9,5 +9,5 @@
  * @author praisan
  */
 public class FastMoveConsoleApplication {
-    
+
 }
