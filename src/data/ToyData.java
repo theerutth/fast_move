@@ -9,8 +9,11 @@ public class ToyData {
 
     public static Bike[] getBikes() {
         Bike[] bikes = new Bike[3];
-        // your code
+        bikes[0] = new Bike("062", 20);
+        bikes[1] = new Bike("118", 21);
+        bikes[2] = new Bike("120", 22);
 
+        // your code
         return bikes;
     }
 
@@ -40,8 +43,8 @@ public class ToyData {
     //testing
     public static void main(String[] args) {
         printBike();
-        printPerson();
-        printParcels();
+//        printPerson();
+//        printParcels();
     }
 
     private static void printBike() {
