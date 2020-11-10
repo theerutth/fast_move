@@ -12,6 +12,7 @@ public class ToyData {
         bikes[0] = new Bike("062", 20);
         bikes[1] = new Bike("118", 21);
         bikes[2] = new Bike("120", 22);
+        // test
 
         // your code
         return bikes;
